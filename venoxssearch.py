@@ -70,8 +70,6 @@ if __name__ == "__main__":
 
     if CONFIG["ONLINE_USER_SEARCH"] >= 0:
         query += f"Online Players: {CONFIG['ONLINE_USER_SEARCH']} " # Adding Online User Search to query
-    else:
-        print("ONLINE_USER_SEARCH is wrong! Continues without.")
 
     print("\nSearching for servers...")
     IP_List = request_shodan()
