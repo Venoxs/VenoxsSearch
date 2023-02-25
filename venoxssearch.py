@@ -5,6 +5,7 @@ try:
     from shodan import Shodan
 except ImportError:
     os.system("python -m pip install shodan")
+    exit()
 
 
 # config.json
