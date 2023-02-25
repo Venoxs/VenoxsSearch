@@ -29,6 +29,6 @@ This section documents the settings in ```config.json```. You only need to edit 
 
 - ```CURRENTLY_ACTIVE_ONLY``` - If you set this to ```true```, then only servers where people are currently online will be output. By default it is set to ```false```
 
-- ```ONLINE_USER_SEARCH``` - When you search for Minecraft servers with Shodan, you get the following information of each server: **"Online Players: x"**. You can specify the ```x``` here and thus only search for servers that were ```x``` number of players online at the time of Shodan's scan. If you want to search for servers where people are currently online, then I recommend you put a number between 2-5 here.
+- ```ONLINE_USER_SEARCH``` - When you search for Minecraft servers with Shodan, you get the following information of each server: **"Online Players: x"**. You can specify the ```x``` here and thus only search for servers that were ```x``` number of players online at the time of Shodan's scan. If you want to search for servers where people are currently online, then I recommend you put a number between ```2-5``` here. If you want it to be random, then put ```-1```.
 
 - ```OUTPUT_FILE``` - If you set that to a filename, then the script will save the results to the file you specified. If you don't want to save it, then just leave it empty.
