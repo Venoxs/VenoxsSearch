@@ -13,7 +13,8 @@ Results are output in the following format: ```User: <online>/<maximum>   <ip>:<
 
 2. Install **Python 3** and the **pip package manager**, if not already installed.
 
-3. Install the shodan library: ```$ python3 -m pip install shodan```
+3. Install the shodan library: ```$ python3 -m pip install shodan```.
+Script automatically installs this library after running it, so you don't have to install it yourself. Only if the script doesn't make it
 
 4. Clone this repository: ```$ git clone https://github.com/Venoxs/VenoxsSearch```
 
